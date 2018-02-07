@@ -6,8 +6,9 @@ class Comment extends Component {
   render() {
     return (
       <div className="Comment">
+        import './CommentContainer';
         <p className="Commentary">
-          Comments goes here
+
         </p>
       </div>
     );
