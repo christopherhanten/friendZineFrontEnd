@@ -6,8 +6,7 @@ class AddLink extends Component {
     return (
       <div className="AddLink">
         <p className="LinkAdd">
-          Add link button goes here<br/>
-          on click  = new AddingLink Page
+          <button>Add Link</button>
         </p>
       </div>
     );

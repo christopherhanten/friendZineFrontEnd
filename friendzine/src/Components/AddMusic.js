@@ -6,8 +6,7 @@ class AddMusic extends Component {
     return (
       <div className="AddMusic">
         <p className="MusicAdd">
-          Add music button goes here<br/>
-          on click  = new AddingMusic Page
+          <button>Add Music</button>
         </p>
       </div>
     );

@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import logo from './friendZineFav.svg';
 import './App.css';
+import Comment from './Components/Comment';
+import Conversation from './Components/Conversation';
+import URLShare from './Components/URLShare';
+import AddMusic from './Components/AddMusic';
+import AddLink from './Components/AddLink';
 
 class App extends Component {
   render() {
@@ -13,6 +18,11 @@ class App extends Component {
         <p className="App-intro">
           Soon You'll be able to add to the Conversation!
         </p>
+        <Comment />
+        <Conversation />
+        <URLShare />
+        <AddMusic />
+        <AddLink />
       </div>
     );
   }

@@ -6,7 +6,7 @@ class URLShare extends Component {
     return (
       <div className="URLShare">
         <p className="ShareURL">
-          Button w model goes here goes here
+          <button>Share this URL</button>
         </p>
       </div>
     );
