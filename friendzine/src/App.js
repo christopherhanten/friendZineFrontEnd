@@ -17,21 +17,18 @@ class App extends Component {
         </header>
 
         <div className="flexContainer">
-          <div className="Commentary">
-            <Comment />
+          <div className="AddStuff">
+            <AddMusic />
+            <AddLink />
           </div>
           <div className="Convo">
             <Conversation />
           </div>
-          <div className="URLShare">
+          <div className="Commentary">
+            <Comment />
             <URLShare />
           </div>
-          <div className="Music">
-            <AddMusic />
-          </div>
-          <div className="Link">
-            <AddLink />
-          </div>
+
         </div>
       </div>
 

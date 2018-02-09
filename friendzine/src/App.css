@@ -7,26 +7,33 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  border: 1px #ccc solid;
+
 }
 .Commentary{
 
+align-items: center;
+border: 1px #ccc solid;
+order: 3;
+width: 30%;
 }
 .Convo {
+flex:3;
+border: 1px #ccc solid;
+order:2;
+width: 50%
+}
+.AddStuff {
+flex:1;
+border: 1px #ccc solid;
+order:1;
+width: 20%
+}
 
-}
-.URLShare {
-
-}
-.Music {
-
-}
-.Link {
-  
-}
-.getIt {
+/* .getIt {
   align-items: center;
-}
+} */
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
