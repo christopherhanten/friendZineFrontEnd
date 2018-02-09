@@ -7,13 +7,13 @@ class Conversation extends Component {
     return (
       <div className="Conversation">
         <textarea>
-          <button>add a comment!</button>
+          <p>
+            "I've been watching TV all day!""<br/>
+            Have you seen Forensic Files ?!?!?<br />
+            <a href="#" />;
+          </p>
         </textarea>
-        <button>Submit</button>
-
-
         <p className="Conversation">
-
         </p>
       </div>
     );

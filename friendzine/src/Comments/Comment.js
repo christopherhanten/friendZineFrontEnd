@@ -8,7 +8,7 @@ class Comment extends Component {
       <div className="Comment">
         <textarea>
           <button>add a comment!</button>
-        </textarea>
+        </textarea><br/>
         <button>Submit</button>
 
 

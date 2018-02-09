@@ -1,49 +1,14 @@
-.App {
-  text-align: center;
-  align-items: center;
-}
-.flexContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-  border: 1px #ccc solid;
-
-}
-.Commentary{
-
-align-items: center;
-border: 1px #ccc solid;
-order: 3;
-width: 30%;
-}
-.Convo {
-flex:3;
-border: 1px #ccc solid;
-order:2;
-width: 50%
-}
-.AddStuff {
-flex:1;
-border: 1px #ccc solid;
-order:1;
-width: 20%
-}
-
-/* .getIt {
-  align-items: center;
-} */
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
 
 .App-header {
-  background-color: #222;
+  background-color: #88B04B;
   height: 135px;
   padding: 20px;
   color: white;
+  border: white 2px solid;
 }
 
 .App-title {
@@ -58,3 +23,47 @@ width: 20%
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.App {
+  text-align: center;
+  align-items: center;
+  background-color: #5F4B8B;
+
+}
+.flexContainer {
+  display: flex;
+  height: 1024px;
+  width: auto;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 15px;
+
+
+}
+.Commentary{
+padding: 200px,210xpx;
+align-items: flex-end;
+order: 3;
+flex-basis: 20%;
+
+}
+.Convo {
+padding: 750px,1018px;
+align-items: flex-start;
+order:2;
+flex-basis: 50%;
+width:100%;
+border: #88B04B 5px solid;
+}
+
+.AddStuff {
+padding: 210px,1018px;
+order:1;
+flex-basis: 20%
+}
+
+/* .getIt {
+  align-items: center;
+} */
