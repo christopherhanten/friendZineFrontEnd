@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-//import './Comment.css';
+import './Comment.css';
 
 class Comment extends Component {
   render() {
     return (
       <div className="Comment">
         <textarea>
-          <button>addMusic</button>
+          <button>add a comment!</button>
         </textarea>
         <button>Submit</button>
 
@@ -19,5 +19,4 @@ class Comment extends Component {
     );
   }
 }
-
-export default Comment;
+export default Comment

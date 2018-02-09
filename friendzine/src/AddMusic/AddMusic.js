@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-//import './AddMusic.css';
+import './AddMusic.css';
 
 class AddMusic extends Component {
   render() {

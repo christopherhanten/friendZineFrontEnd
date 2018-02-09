@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-//import './AddLink.css';
+import './AddLink.css';
 
 class AddLink extends Component {
   render() {

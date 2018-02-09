@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import logo from './friendZineFav.svg';
 import './App.css';
-import Comment from './Components/Comment';
-import Conversation from './Components/Conversation';
-import URLShare from './Components/URLShare';
-import AddMusic from './Components/AddMusic';
-import AddLink from './Components/AddLink';
+import Comment from './Comments/Comment';
+import Conversation from './Conversation/Conversation';
+import URLShare from './URLShare/URLShare';
+import AddMusic from './AddMusic/AddMusic';
+import AddLink from './AddLink/AddLink';
 
 class App extends Component {
   render() {
@@ -15,15 +15,26 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">friendZine.</h1>
         </header>
-        <p className="App-intro">
-          Soon You'll be able to add to the Conversation!
-        </p>
-        <Comment />
-        <Conversation />
-        <URLShare />
-        <AddMusic />
-        <AddLink />
+
+        <div className="flexContainer">
+          <div className="Commentary">
+            <Comment />
+          </div>
+          <div className="Convo">
+            <Conversation />
+          </div>
+          <div className="URLShare">
+            <URLShare />
+          </div>
+          <div className="Music">
+            <AddMusic />
+          </div>
+          <div className="Link">
+            <AddLink />
+          </div>
+        </div>
       </div>
+
     );
   }
 }
