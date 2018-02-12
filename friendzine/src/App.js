@@ -6,6 +6,7 @@ import Conversation from './Conversation/Conversation';
 import URLShare from './URLShare/URLShare';
 import AddMusic from './AddMusic/AddMusic';
 import AddLink from './AddLink/AddLink';
+//import index.html;
 
 class App extends Component {
   render() {
@@ -16,17 +17,17 @@ class App extends Component {
           <h1 className="App-title">friendZine.</h1>
         </header>
 
-        <container className="flexContainer">
-          <div className="AddStuff">
+        <container>
+         <div className="AddStuff">
             <AddMusic />
             <AddLink />
           </div>
           <div className="Convo">
-            <div className="Commentary">
+            <Conversation />
+          <div className="Commentary">
               <Comment />
               <URLShare />
-            </div>
-            <Conversation />
+          </div>
           </div>
         </container>
       </div>
