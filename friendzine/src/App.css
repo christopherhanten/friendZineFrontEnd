@@ -2,7 +2,6 @@
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
-
 .App-header {
   background-color: #88B04B;
   height: 135px;
@@ -10,60 +9,18 @@
   color: white;
   border: white 2px solid;
 }
-
 .App-title {
   font-size: 1.5em;
 }
-
 .App-intro {
   font-size: large;
 }
-
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
-
 .App {
   text-align: center;
   align-items: center;
   background-color: #5F4B8B;
-
 }
-.flexContainer {
-  display: flex;
-  height: 1024px;
-  width: auto;
-  align-items: stretch;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  margin-top: 15px;
-
-
-}
-.Commentary{
-padding: 200px,210xpx;
-align-items: flex-end;
-order: 3;
-flex-basis: 20%;
-
-}
-.Convo {
-padding: 750px,1018px;
-align-items: flex-start;
-order:2;
-flex-basis: 50%;
-width:100%;
-border: #88B04B 5px solid;
-}
-
-.AddStuff {
-padding: 210px,1018px;
-order:1;
-flex-basis: 20%
-}
-
-/* .getIt {
-  align-items: center;
-} */

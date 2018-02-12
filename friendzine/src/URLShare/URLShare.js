@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './URLShare.css';
+//import './URLShare.css';
 
 class URLShare extends Component {
   render() {

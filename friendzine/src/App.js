@@ -13,24 +13,22 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          
           <h1 className="App-title">friendZine.</h1>
         </header>
 
-        <div className="flexContainer">
+        <container className="flexContainer">
           <div className="AddStuff">
             <AddMusic />
             <AddLink />
           </div>
           <div className="Convo">
+            <div className="Commentary">
+              <Comment />
+              <URLShare />
+            </div>
             <Conversation />
           </div>
-          <div className="Commentary">
-            <Comment />
-            <URLShare />
-          </div>
-
-        </div>
+        </container>
       </div>
 
     );
